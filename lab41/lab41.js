@@ -1,11 +1,27 @@
 console.log("hello lab 41");
 
-const num = [1, 2, 3, 4, 6, 7, 8, 110, 27];
-
-const showArray = (array) => {
-  array.forEach((value, index) => console.log(`index: ${index} | value= ${value}`));
+const human = {
+  name: "manh",
+  age: 20,
 };
 
-const evenArray = num.filter((value) => value % 2 == 0);
+// get data
+console.log(`Name: ${human.name}`);
+console.log("Age: " + human.age);
 
-showArray(evenArray);
+// set data
+human.address = "Binh Duong";
+console.log(`Address: ${human.address}`);
+
+// about
+
+console.log(human);
+console.log(`Details: ${human}`);
+
+// một lưu ý khi sử dụng hoặc truyền một biến object thì
+
+// Cách 1 dùng ","
+console.log("Thông tin chi tiết: ", human);
+
+// Cách 2 dùng JSON.stringify
+console.log(`Detailed information: ${JSON.stringify(human)}`);
