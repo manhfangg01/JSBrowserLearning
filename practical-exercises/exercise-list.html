@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mục lục dự án thực hành</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 40px 20px;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+
+      .list-group {
+        list-style: none;
+        padding: 0;
+      }
+
+      .list-item {
+        margin-bottom: 12px;
+      }
+
+      .list-item a {
+        display: block;
+        padding: 15px 20px;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .list-item a:hover {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+        transform: translateX(5px);
+      }
+
+      .folder-tag {
+        font-size: 12px;
+        background: #eee;
+        padding: 2px 8px;
+        border-radius: 4px;
+        color: #555;
+      }
+
+      .list-item a:hover .folder-tag {
+        background: rgba(255, 255, 255, 0.3);
+        color: white;
+      }
+
+      .footer-link {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+      }
+
+      .footer-link a {
+        color: #d9534f;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .footer-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello Guest!</h1>
+      <p class="subtitle">Các bài tập thực hành</p>
+
+      <ul class="list-group">
+        <li class="list-item">
+          <a href="./todo-list/todo-list.html">
+            Todo-list
+            <span class="folder-tag">todos</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-link">
+        <a href="https://manhfangg01.github.io/JSBrowserLearning/" target="_blank"> Click here to see our public web </a>
+      </div>
+    </div>
+  </body>
+</html>
